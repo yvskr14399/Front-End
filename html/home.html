@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body{
+      background-color:darkgray;
+      font-weight: bold;
+    }
+    .card{
+      background-color:cadetblue;
+      padding: 5px;
+
+    }
+    .card h5{
+      text-align: center;
+    }
+   .logo{
+    padding: 10px;
+    background-color:cornsilk
+   }
+   .name{
+    padding:10px;
+    font-weight: bolder;
+    font-size:xx-large;
+    font-family:cursive;
+    color: blue;
+    
+   }
+   .login{
+    padding: 10px;
+    
+   }
+   .vision-img{
+    width: 300px;
+    height:400px;
+    
+    padding-top: 20px;
+   }
+   .vision-p{
+    text-align:left;
+    width: 400px;
+    
+    padding: 20px;
+   }
+   .carousel-item img{
+  
+    width: 100% !important;
+    height: 200px;
+   }
+   .corousel{
+    padding-top: 50px;
+   }
+   .contact{
+    background-color:dimgrey;
+
+   }
+ 
+  .services{
+    padding: 20px;
+    background-color:gainsboro;
+  }
+  .four{
+    padding: 30px;
+  }
+  </style>
+</head>
+<body>
+  <div class="contaier one logo">
+    <div class="row">
+      <div class="col-3">
+        <img src="../src/images/logo.png" alt="logo">
+      </div>
+      <div class="col-7 name">
+        <marquee behavior="alternate" direction="">PROFFESIONAL VISION TECHNOLOGIES</marquee>
+      </div>
+      <div class="col-2 login d-flex flex-row-reverse">
+        <a href=""><button class="btn btn-dark">LOGIN</button></a>
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+  <div class="container two d-flex justify-content-evenly">
+    <div class="row">
+      <div class="col">
+        <a href=""><button class="btn btn-primary">HOME</button></a>
+      </div>
+     
+      <div class="col">
+        <a href=""><button class="btn btn-primary">CAREERS</button></a>
+      </div>
+      <div class="col">
+        <a href=""><button class="btn btn-primary">ABOUT</button></a>
+      </div>
+      <div class="col">
+        <a href=""><button class="btn btn-primary">SERVICES</button></a>
+      </div>
+      <div class="col col-lg">
+        <a href=""><button class="btn btn-primary" style="width:150px;">IT-CONSULTING</button></a>
+      </div>
+      <div class="col">
+        <a href=""><button class="btn btn-primary">CLIENTS</button></a>
+      </div>
+      <div class="col">
+        <a href=""><button class="btn btn-primary">TRAINING</button></a>
+      </div>
+      <div class="col">
+        <a href=""><button class="btn btn-primary" style="width:150px;">CONTACT-US</button></a>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="container three">
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <img src="../src/images/vision.jpg" alt="vision" class="vision-img">
+          </div>
+          <div class="col vision-p" >
+            <p style="text-align: justify;">PV Technologies is a one of the leading global consulting and IT services
+              providers in Application development, consulting and staffing Services.
+              
+              We excel in providing innovative business software solutions and complete
+              Information Technology Services to make our clients business effective & efficient,
+              there by providing the greatest return on investment.</p>
+              <center><button class="btn btn-info">More</button></center>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col corousel">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <center><h1>CLIENTS</h1></center>
+        
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="../src/images/Accenture" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="../src/images/cognizant.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img src="../src/images/tcs.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+
+
+      
+      <div class="container services">
+        <div class="row">
+          <div class="col">
+            <center><h1>SERVICES</h1></center>
+            <div class="card-group">
+              <div class="card">
+                <img src="../src/images/core.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CORE DEVELOPEMENT</h5>
+                </div>
+              </div>
+              <div class="card">
+                <img src="../src/images/bigdata.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BIG DATA</h5>
+                </div>
+              </div>
+              <div class="card">
+                <img src="../src/images/mobile.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MOBILE TECHNOLOGY</h5>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card">
+                <img src="../src/images/content.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CONTENT MANAGEMENT</h5>
+                </div>
+              </div>
+              <div class="card">
+                <img src="../src/images/cloud.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CLOUD COMPUTING</h5>
+                </div>
+              </div>
+              <div class="card">
+                <img src="../src/images/quality.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">QUALITY ASURANCE</h5>
+                </div>
+              </div>
+            </div>
+            
+            
+
+
+          </div>
+        </div>
+      </div>
+            
+            
+
+
+          </div>
+        </div>
+      </div>
+      <div class="container contact">
+      <div class="row four">
+        <div class="col">
+          <center>
+            <div>
+              <h5>Corporate Office</h5>
+              <address>
+                Professional Vision Technolgies Inc <br>
+                  40500 Ann Arbor Road,<br>
+                  Suite 101LL, Plymouth, <br>
+                  MI 48170 USA
+              </address>
+              <img src="../src/images/call.png" alt="call"> <p> +1 734-329-5335</p>
+              <img src="../src/images/fax.png" alt="fax"><p> +1 734-329-5345</p>
+              <img src="../src/images/mail.png" alt="mail"><p>info@pvtechUSA.com</p>
+            </div>
+          </center>
+        </div>
+        <div class="col">
+          <form action="/action_page.php">
+            <fieldset>
+              <legend>GET IN TOUCH:</legend>
+              <label for="name">Name:</label><br>
+              <input type="text" id="fname" name="fname" ><br>
+              <label for="email">E-Mail:</label><br>
+              <input type="email" id="email" name="email" ><br>
+              <label for="mobile">Mobile No:</label><br>
+              <input type="tel" name="mobile" id="mobile"><br>
+              <label for="msg">Message</label><br>
+              <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+              <br><br><center>
+              <button type="submit" class="btn btn-success">SEND</button></center>             
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      </div>
+ 
+
+  
+ 
+  
+ 
+  
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
